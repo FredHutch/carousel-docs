@@ -5,12 +5,14 @@ Applications
 
 R markdown
 ---------------------------------
+
 Render an `R Markdown document <https://rmarkdown.rstudio.com/>'_ using custom code and private data.
 If the R Markdown document is being used to display data which is contained in other data files,
 just upload those additional files and reference them directly in your R Markdown code.
 
  Custom R/Shiny
  ---------------------------------
+
 Render an `R/Shiny dashboard <https://shiny.rstudio.com/>`_ using custom code and private data.
 Using this app, a user may render any sort of R/Shiny dashboard, including the use of other data files for importing data for visualization.
 The R/Shiny app in Carousel supports many common R libraries for data manipulation and visualization, but please
@@ -30,6 +32,7 @@ for understanding the display provided by this app.
 
  JBrowse2
  ---------------------------------
+
 `JBrowse2 <https://jbrowse.org/jb2>`_ is a pluggable open-source platform for visualizing and integrating biological data.
 JBrowse2's most important feature is that it is able to compose multiple views of your data together on the same screen.
 The JBrowse2 `website <https://jbrowse.org/jb2/>`_ contains extensive documentation, demos, and educational resources.
@@ -38,6 +41,7 @@ In order to display your data, JBrowse 2 requires (1) the reference genome for y
 
  Single Cell Atlas (cellxgene)
  ---------------------------------
+  
 The Chan-Zuckerberg Institute has created an interactive data explorer for single-cell transcriptomics called
 `cellxgene <https://github.com/chanzuckerberg/cellxgene>`_ (pronounced "cell-by-gene"). The cellxgene 
 `website <https://github.com/chanzuckerberg/cellxgene>`_ contains documentation on how to prepare your data for display.
@@ -45,6 +49,7 @@ Once you have prepared the .h5ad file required by cellxgene, upload it to Carous
 
  Gene-Level Analysis of Metagenomes (GLAM) Browser
  ---------------------------------------------------------
+ 
 The GLAM (Gene-Level Analysis of Metagenomes) Browser was created to allow scientists to interactively
 explore the results of gene-level metagenomics analysis performed using the `geneshot <https://github.com/Golob-Minot/geneshot/wiki>`_
 bioinformatics workflow for microbiome analysis.
