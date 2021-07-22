@@ -20,18 +20,18 @@ One Portal, Many Visualizations
 ------------------------------------
 
 It has never been easier for researchers to design and build data visualization tools tuned to their
-exact type of data. With tools like `Shiny <https://shiny.rstudio.com/>`_ , `Dash<https://plotly.com/dash/>`_,
+exact type of data. With tools like `Shiny <https://shiny.rstudio.com/>`_ , `Dash <https://plotly.com/dash/>`_,
 and `Streamlit<https://streamlit.io>`_, simple scripts in R or Python can be transformed into dashboards
 with interactive menus and displays which can be explored in endless combinations. Even more powerful
-and sophisticated tools (like `anvi'o<https://merenlab.org/software/anvio/>`_, `JBrowse<https://jbrowse.org/jb2/`>_,
-and `cellxgene<https://github.com/chanzuckerberg/cellxgene>`_) are being built by computational biologists
+and sophisticated tools (like `anvi'o <https://merenlab.org/software/anvio/>`_, `JBrowse <https://jbrowse.org/jb2/`>_,
+and `cellxgene <https://github.com/chanzuckerberg/cellxgene>`_) are being built by computational biologists
 to provide intuitive understanding of extremely complex datasets.
 
 While it has become much easier for researchers to generate interactive visualizations of custom data,
 it is still difficult to share those visualizations with collaborators and the larger scientific community.
 While some of the tools above come with websites for sharing, most of those options are specific to a single
 language or codebase. In contrast, Carousel provides compatibility across all visualization tools. By
-using `Docker<https://www.docker.com/>`_ as the fundamental building block for rendering visualizations,
+using `Docker <https://www.docker.com/>`_ as the fundamental building block for rendering visualizations,
 Carousel aims to unlock the full creative potential of the scientific community by allowing scientists
 to innovate with complete flexibility.
 
@@ -55,7 +55,7 @@ Work In Progress
 --------------------
 
 Carousel is under active development by the Fred Hutch Data Core - if you notice that anything is out of date or
-broken, please `contact us<mailto:hutchdatacore@fredhutch.org>`_!
+broken, please `contact us <mailto:hutchdatacore@fredhutch.org>`_!
 
 .. toctree::
    :maxdepth: 2
