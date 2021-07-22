@@ -58,5 +58,5 @@ broken, please `contact us <mailto:hutchdatacore@fredhutch.org>`_!
    :maxdepth: 2
    :caption: Contents:
 
-   getting_started
+   using_carousel
    apps
