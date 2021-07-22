@@ -5,13 +5,12 @@ Applications
 
 R markdown
 -------------
-Render an `R Markdown document <https://rmarkdown.rstudio.com/>'_ using custom code and private data.
+Render an `R Markdown document <https://rmarkdown.rstudio.com/>`_ using custom code and private data.
 If the R Markdown document is being used to display data which is contained in other data files,
 just upload those additional files and reference them directly in your R Markdown code.
 
  Custom R/Shiny
 -----------------
-
 Render an `R/Shiny dashboard <https://shiny.rstudio.com/>`_ using custom code and private data.
 Using this app, a user may render any sort of R/Shiny dashboard, including the use of other data files for importing data for visualization.
 The R/Shiny app in Carousel supports many common R libraries for data manipulation and visualization, but please
