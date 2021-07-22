@@ -5,19 +5,22 @@ Applications
 
 R markdown
 -------------
+
 Render an `R Markdown document <https://rmarkdown.rstudio.com/>`_ using custom code and private data.
 If the R Markdown document is being used to display data which is contained in other data files,
 just upload those additional files and reference them directly in your R Markdown code.
 
  Custom R/Shiny
 -----------------
+
 Render an `R/Shiny dashboard <https://shiny.rstudio.com/>`_ using custom code and private data.
 Using this app, a user may render any sort of R/Shiny dashboard, including the use of other data files for importing data for visualization.
 The R/Shiny app in Carousel supports many common R libraries for data manipulation and visualization, but please
-[be in touch <mailto:hutchddatacore@fredhutch.org) if you require additional libraries for your visualization.
+`be in touch <mailto:hutchddatacore@fredhutch.org>`_ if you require additional libraries for your visualization.
 
  Anvi’o Pan-Genome
  ---------------------
+
 The `anvi'o <https://merenlab.org/software/anvio/>`_ software library was created by the Meren Lab to provide
 an open-source, community-driven analysis and visualization platform for microbial ‘omics data.
 This particular Carousel app is used to compare a set of microbial genomes using the anvi'o pangenome display.
@@ -81,6 +84,7 @@ We are always looking to add new visualizations and analyses to Carousel.
 Any open-source visualization tool that is compatible with Docker can be added to Carousel.
 
 Put more simply the tool needs to be:  
+
 - Free
 - Able to run on Linux
 - Have an interactive visualization component
