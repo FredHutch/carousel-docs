@@ -11,7 +11,7 @@ If the R Markdown document is being used to display data which is contained in o
 just upload those additional files and reference them directly in your R Markdown code.
 
  Custom R/Shiny
- ---------------------------------
+~~~~~~~~~~~~~
 
 Render an `R/Shiny dashboard <https://shiny.rstudio.com/>`_ using custom code and private data.
 Using this app, a user may render any sort of R/Shiny dashboard, including the use of other data files for importing data for visualization.
@@ -49,7 +49,7 @@ Once you have prepared the .h5ad file required by cellxgene, upload it to Carous
 
  Gene-Level Analysis of Metagenomes (GLAM) Browser
  ---------------------------------------------------------
- 
+
 The GLAM (Gene-Level Analysis of Metagenomes) Browser was created to allow scientists to interactively
 explore the results of gene-level metagenomics analysis performed using the `geneshot <https://github.com/Golob-Minot/geneshot/wiki>`_
 bioinformatics workflow for microbiome analysis.
