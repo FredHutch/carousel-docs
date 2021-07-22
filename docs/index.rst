@@ -10,7 +10,9 @@ Welcome to Carousel's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-Here is some text
+   getting_started
+   apps
+
 
 Indices and tables
 ==================
