@@ -3,8 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+===================================
 Carousel: Share Interactive Data
-====================================
+===================================
 
 *Carousel is a web platform for uploading and sharing interactive datasets.*
 
@@ -19,7 +20,7 @@ One Portal, Many Visualizations
 ------------------------------------
 
 It has never been easier for researchers to design and build data visualization tools tuned to their
-exact type of data. With tools like [Shiny](https://shiny.rstudio.com/), [Dash](https://plotly.com/dash/),
+exact type of data. With tools like `Shiny <https://shiny.rstudio.com/>`_ , [Dash](https://plotly.com/dash/),
 and [Streamlit](https://streamlit.io/), simple scripts in R or Python can be transformed into dashboards
 with interactive menus and displays which can be explored in endless combinations. Even more powerful
 and sophisticated tools (like [anvi'o](https://merenlab.org/software/anvio/), [JBrowse](https://jbrowse.org/jb2/),
@@ -34,7 +35,8 @@ using [Docker](https://www.docker.com/) as the fundamental building block for re
 Carousel aims to unlock the full creative potential of the scientific community by allowing scientists
 to innovate with complete flexibility.
 
-## Using Carousel
+Using Carousel
+-----------------
 
 Using Carousel, users can:
 
@@ -64,12 +66,3 @@ broken, please [contact us](mailto:hutchdatacore@fredhutch.org)!
 
    getting_started
    apps
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
-This is some text about Carousel
