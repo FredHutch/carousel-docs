@@ -21,9 +21,9 @@ One Portal, Many Visualizations
 
 It has never been easier for researchers to design and build data visualization tools tuned to their
 exact type of data. With tools like `Shiny <https://shiny.rstudio.com/>`_ , `Dash <https://plotly.com/dash/>`_,
-and `Streamlit<https://streamlit.io>`_, simple scripts in R or Python can be transformed into dashboards
+and `Streamlit <https://streamlit.io>`_, simple scripts in R or Python can be transformed into dashboards
 with interactive menus and displays which can be explored in endless combinations. Even more powerful
-and sophisticated tools (like `anvi'o <https://merenlab.org/software/anvio/>`_, `JBrowse <https://jbrowse.org/jb2/`>_,
+and sophisticated tools (like `anvi'o <https://merenlab.org/software/anvio/>`_, `JBrowse <https://jbrowse.org/jb2/>`_,
 and `cellxgene <https://github.com/chanzuckerberg/cellxgene>`_) are being built by computational biologists
 to provide intuitive understanding of extremely complex datasets.
 
