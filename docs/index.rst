@@ -51,9 +51,7 @@ skip any command line installation and processing steps required of many open-so
 your desired application, upload the relevant data, and view your data interactively! Easily share your
 interactive datasets and visualizations through the platform with other users.
 
-Work In Progress
---------------------
-
+.. note::
 Carousel is under active development by the Fred Hutch Data Core - if you notice that anything is out of date or
 broken, please `contact us <mailto:hutchdatacore@fredhutch.org>`_!
 
