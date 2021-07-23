@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Carousel: Share Interactive Data
-=========================
+====================================
 
 *Carousel is a web platform for uploading and sharing interactive datasets.*
 
