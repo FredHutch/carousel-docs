@@ -51,7 +51,7 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search"  style="background: white" >
+        <div class="wy-side-nav-search" >
           
 
           
@@ -86,11 +86,19 @@
               
             
             
-              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+              <p class="caption" role="heading"><span class="caption-text">Table of Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="using_carousel.html">Using Carousel</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Applications</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#r-markdown">R markdown</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#custom-r-shiny">Custom R/Shiny</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#anvio-pan-genome">Anvi’o Pan-Genome</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#jbrowse2">JBrowse2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#single-cell-atlas-cellxgene">Single Cell Atlas (cellxgene)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gene-level-analysis-of-metagenomes-glam-browser">Gene-Level Analysis of Metagenomes (GLAM) Browser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bacterial-operon-visualization">Bacterial Operon Visualization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#custom-figure-plotly-express">Custom Figure (Plotly Express)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#request-an-application">Request an application</a></li>
 </ul>
 </li>
 </ul>
@@ -161,23 +169,23 @@
            <div itemprop="articleBody">
             
   <div class="section" id="applications">
-<h1>Applications<a class="headerlink" href="#applications" title="Permalink to this headline">¶</a></h1>
+<span id="apps"></span><h1>Applications<a class="headerlink" href="#applications" title="Permalink to this headline">¶</a></h1>
 <p><em>Carousel users have access to a variety of applications. Simply upload your data, launch your analysis, and share with your collaborators!</em></p>
 <div class="section" id="r-markdown">
 <h2>R markdown<a class="headerlink" href="#r-markdown" title="Permalink to this headline">¶</a></h2>
 <p>Render an <a class="reference external" href="https://rmarkdown.rstudio.com/">R Markdown document</a> using custom code and private data.
 If the R Markdown document is being used to display data which is contained in other data files,
 just upload those additional files and reference them directly in your R Markdown code.</p>
-<blockquote>
-<div><p>Custom R/Shiny</p>
-</div></blockquote>
-<hr class="docutils" />
+</div>
+<div class="section" id="custom-r-shiny">
+<h2>Custom R/Shiny<a class="headerlink" href="#custom-r-shiny" title="Permalink to this headline">¶</a></h2>
 <p>Render an <a class="reference external" href="https://shiny.rstudio.com/">R/Shiny dashboard</a> using custom code and private data.
 Using this app, a user may render any sort of R/Shiny dashboard, including the use of other data files for importing data for visualization.
 The R/Shiny app in Carousel supports many common R libraries for data manipulation and visualization, but please
 <a class="reference external" href="mailto:hutchddatacore&#37;&#52;&#48;fredhutch&#46;org">be in touch</a> if you require additional libraries for your visualization.</p>
-<blockquote>
-<div></div></blockquote>
+</div>
+<div class="section" id="anvio-pan-genome">
+<h2>Anvi’o Pan-Genome<a class="headerlink" href="#anvio-pan-genome" title="Permalink to this headline">¶</a></h2>
 <p>The <a class="reference external" href="https://merenlab.org/software/anvio/">anvi’o</a> software library was created by the Meren Lab to provide
 an open-source, community-driven analysis and visualization platform for microbial ‘omics data.
 This particular Carousel app is used to compare a set of microbial genomes using the anvi’o pangenome display.
@@ -187,21 +195,23 @@ The two anvi’o database files created by that workflow can be directly uploade
 The extensive anvi’o documentation produced by the Meren Lab includes an
 <a class="reference external" href="https://merenlab.org/2016/11/08/pangenomics-v2/">explanatory tutorial on pan-genome analysis</a> which may be helpful
 for understanding the display provided by this app.</p>
-<blockquote>
-<div></div></blockquote>
-<p><a class="reference external" href="https://jbrowse.org/jb2">JBrowse2</a> is a pluggable open-source platform for visualizing and integrating biological data.
+</div>
+<div class="section" id="jbrowse2">
+<h2>JBrowse2<a class="headerlink" href="#jbrowse2" title="Permalink to this headline">¶</a></h2>
+<p>JBrowse2 is a pluggable open-source platform for visualizing and integrating biological data.
 JBrowse2’s most important feature is that it is able to compose multiple views of your data together on the same screen.
 The JBrowse2 <a class="reference external" href="https://jbrowse.org/jb2/">website</a> contains extensive documentation, demos, and educational resources.
 In order to display your data, JBrowse 2 requires (1) the reference genome for your organism of interest and
 (2) a set of tracks that overlay additional information on that genome.</p>
-<blockquote>
-<div></div></blockquote>
+</div>
+<div class="section" id="single-cell-atlas-cellxgene">
+<h2>Single Cell Atlas (cellxgene)<a class="headerlink" href="#single-cell-atlas-cellxgene" title="Permalink to this headline">¶</a></h2>
 <p>The Chan-Zuckerberg Institute has created an interactive data explorer for single-cell transcriptomics called
-<a class="reference external" href="https://github.com/chanzuckerberg/cellxgene">cellxgene</a> (pronounced “cell-by-gene”). The cellxgene
-<a class="reference external" href="https://github.com/chanzuckerberg/cellxgene">website</a> contains documentation on how to prepare your data for display.
+cellxgene (pronounced “cell-by-gene”). The cellxgene <a class="reference external" href="https://github.com/chanzuckerberg/cellxgene">website</a> contains documentation on how to prepare your data for display.
 Once you have prepared the .h5ad file required by cellxgene, upload it to Carousel for display using this app.</p>
-<blockquote>
-<div></div></blockquote>
+</div>
+<div class="section" id="gene-level-analysis-of-metagenomes-glam-browser">
+<h2>Gene-Level Analysis of Metagenomes (GLAM) Browser<a class="headerlink" href="#gene-level-analysis-of-metagenomes-glam-browser" title="Permalink to this headline">¶</a></h2>
 <p>The GLAM (Gene-Level Analysis of Metagenomes) Browser was created to allow scientists to interactively
 explore the results of gene-level metagenomics analysis performed using the <a class="reference external" href="https://github.com/Golob-Minot/geneshot/wiki">geneshot</a>
 bioinformatics workflow for microbiome analysis.
@@ -210,8 +220,9 @@ This file contains a compressed version of the output data which has been optimi
 Upload the <cite>.rdb</cite> file for any experiment to Carousel using this app, and you will be able to inspect the characteristics of every detected organism,
 as well as their association with experimental parameters.
 Selecting any individual gene group will show further details, including the taxonomic and functional assignments (if any) for the genes in that group.</p>
-<blockquote>
-<div></div></blockquote>
+</div>
+<div class="section" id="bacterial-operon-visualization">
+<h2>Bacterial Operon Visualization<a class="headerlink" href="#bacterial-operon-visualization" title="Permalink to this headline">¶</a></h2>
 <p>When analyzing a collection of bacterial genomes, it can be useful to summarize which of the genomes contain a particular set of genes.
 In particular, it can be useful to have a display which summarizes both (a) how similar the genomes are to each other alongside
 (b) whether they contain a particular set of genes.The analysis pipeline which can be used to generate this information is called
@@ -219,15 +230,17 @@ BOFFO (Bacterial Operon Finder for Functional Organization). The inputs to this 
 (2) a collection of genes to align against those genomes. After running the BOFFO pipeline, this app can be used to visualize the
 results in a single display which combines a genome similarity dendrogram with a table showing which genes are present.
 In addition, this app provides the ability to customize the visual display and export a vector PDF which can be used to generate publication-quality figures.</p>
-<blockquote>
-<div></div></blockquote>
+</div>
+<div class="section" id="custom-figure-plotly-express">
+<h2>Custom Figure (Plotly Express)<a class="headerlink" href="#custom-figure-plotly-express" title="Permalink to this headline">¶</a></h2>
 <p>Sometimes you just want to make a figure. One of the most widely used software libraries for making images out of data is Plotly.
 Using a table of data as an input, this software can produce a large variety of displays. To make some of this functionality
 available without needing to use the command line, this app will render data provided as a spreadsheet (in CSV format) using
 the Plotly library. Simply select the columns which contain the data corresponding to the X-axis, Y-axis, etc., and the app
 will display an interactive figure which the user can customize and even download.</p>
-<blockquote>
-<div></div></blockquote>
+</div>
+<div class="section" id="request-an-application">
+<h2>Request an application<a class="headerlink" href="#request-an-application" title="Permalink to this headline">¶</a></h2>
 <p>We are always looking to add new visualizations and analyses to Carousel.
 Any open-source visualization tool that is compatible with Docker can be added to Carousel.</p>
 <p>Put more simply the tool needs to be:</p>
@@ -283,19 +296,6 @@ Any open-source visualization tool that is compatible with Docker can be added t
 
   
   
-    
-    <!-- Theme Analytics -->
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-XXXXXXX-1', 'auto');
-    
-    ga('send', 'pageview');
-    </script>
-
     
    
 

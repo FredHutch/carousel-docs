@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Carousel: Share Interactive Data
-===================================
+====================================
 
 *Carousel is a web platform for uploading and sharing interactive datasets.*
 
@@ -50,13 +50,15 @@ skip any command line installation and processing steps required of many open-so
 your desired application, upload the relevant data, and view your data interactively! Easily share your
 interactive datasets and visualizations through the platform with other users.
 
-.. note::
+Work in Progress
+------------------
+
 Carousel is under active development by the Fred Hutch Data Core - if you notice that anything is out of date or
 broken, please `contact us <mailto:hutchdatacore@fredhutch.org>`_!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Table of Contents:
 
    using_carousel
    apps
