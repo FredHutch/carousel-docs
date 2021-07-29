@@ -52,9 +52,9 @@ Gene-Level Analysis of Metagenomes (GLAM) Browser
 The GLAM (Gene-Level Analysis of Metagenomes) Browser was created to allow scientists to interactively
 explore the results of gene-level metagenomics analysis performed using the `geneshot <https://github.com/Golob-Minot/geneshot/wiki>`_
 bioinformatics workflow for microbiome analysis.
-After running `geneshot <https://github.com/Golob-Minot/geneshot/wiki>`_ (v0.9 or later), a file will be created in the output directory ending in `.rdb`.
+After running `geneshot <https://github.com/Golob-Minot/geneshot/wiki>`_ (v0.9 or later), a file will be created in the output directory ending in ``.rdb``.
 This file contains a compressed version of the output data which has been optimized for rapid visualization using the GLAM Browser.
-Upload the `.rdb` file for any experiment to Carousel using this app, and you will be able to inspect the characteristics of every detected organism,
+Upload the ``.rdb`` file for any experiment to Carousel using this app, and you will be able to inspect the characteristics of every detected organism,
 as well as their association with experimental parameters.
 Selecting any individual gene group will show further details, including the taxonomic and functional assignments (if any) for the genes in that group.
 
@@ -63,9 +63,9 @@ GiG-Map (Genes in Genomes - Map)
 
 When trying to understand the biological context of a set of microbial protein-coding genes, it can be very helpful to understand the distribution of organisms which contain that coding sequence in their genome. One of the most useful characteristics used to differentiate those microbial genomes which do or do not contain a set of genes is their overall evolutionary history, for which taxonomic assignment is commonly used as a proxy. With this type of analysis it can become more easily evident when a set of genes are, for example, common to a cohesive taxonomic grouping (i.e. genus-, or species-specific), found sporadically across representatives within a taxonomic grouping (i.e. strain-specific), or found across disparate taxonomic groupings (i.e., horizontally transfered genes).
 
-After running the `gig-map` alignment utility, a file will be created in the output directory ending in `*.rdb`. This file contains a compressed version of the output data which has been optimized for rapid visualization.
+After running the ``gig-map`` alignment utility, a file will be created in the output directory ending in ``*.rdb``. This file contains a compressed version of the output data which has been optimized for rapid visualization.
 
-Upload the `*.rdb` file for any experiment to Carousel using this app, and you will be able to inspect the detection of genes across genomes, as well as any addition annotations provided for genes and genomes.
+Upload the ``*.rdb`` file for any experiment to Carousel using this app, and you will be able to inspect the detection of genes across genomes, as well as any addition annotations provided for genes and genomes.
 
 For more details on how to generate these alignments, as well as the appropriate annotations, please reference the `gig-map repository <https://github.com/FredHutch/gig-map>`_ .
 
